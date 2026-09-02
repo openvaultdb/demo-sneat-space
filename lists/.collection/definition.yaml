@@ -1,0 +1,22 @@
+record_file:
+  name: lists.yaml
+  format: yaml
+  type: map[$record_id]map[$field_name]any
+columns:
+  title:
+    type: string
+    required: true
+  type:
+    type: string
+    required: true
+  emoji:
+    type: string
+  spaceIDs:
+    type: any
+  createdAt:
+    type: string
+  createdBy:
+    type: string
+  items:
+    type: any
+columns_order: [title, type, emoji, spaceIDs, createdAt, createdBy, items]

@@ -1,0 +1,31 @@
+do:demo:
+  title: To do
+  type: do
+  emoji: "✅"
+  spaceIDs: [demo]
+  createdAt: "2026-09-02T00:00:00Z"
+  createdBy: demo
+  items:
+    - id: tick-me
+      title: Tick me
+      status: active
+    - id: check-changes
+      title: Check changes in ~/ovdb/sneat/demo-space/
+      status: active
+buy:demo:
+  title: To buy
+  type: buy
+  emoji: "🛒"
+  spaceIDs: [demo]
+  createdAt: "2026-09-02T00:00:00Z"
+  createdBy: demo
+  items:
+    - id: milk
+      title: Milk
+      status: active
+    - id: bread
+      title: Bread
+      status: active
+    - id: apples
+      title: Apples
+      status: active

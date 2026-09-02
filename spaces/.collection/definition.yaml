@@ -1,0 +1,12 @@
+record_file:
+  name: spaces.yaml
+  format: yaml
+  type: map[$record_id]map[$field_name]any
+columns:
+  title:
+    type: string
+    required: true
+  type:
+    type: string
+    required: true
+columns_order: [title, type]
