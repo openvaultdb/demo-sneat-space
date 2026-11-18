@@ -1,0 +1,8 @@
+database:
+  id: demo-sneat-space
+  schema_mode: schemaless
+storage:
+  engine: ingitdb
+  path: .
+  ingitdb:
+    push: none
